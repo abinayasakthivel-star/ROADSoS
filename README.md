@@ -25,23 +25,27 @@ Version Control: Git & GitHub
 Project Structure:
 
 Flask backend handles routing and database operations
+
 HTML templates for UI pages
+
 SQLite database stores contacts and accident reports
+
 Google Maps integration for real-time nearby search
+
 
 Assumptions:
 
-Users allow location access for GPS features
-Internet is required for map services
-Emergency contact and report data entered by users is assumed to be valid
-Google Maps provides accurate nearby service results
+Users allow location access for GPS features,
+Internet is required for map services,
+Emergency contact and report data entered by users is assumed to be valid,
+Google Maps provides accurate nearby service results.
 
 Future Enhancements:
 
-Live ambulance tracking
-Voice-based SOS activation
-Cloud database integration
-Real-time emergency notifications
+Live ambulance tracking,
+Voice-based SOS activation,
+Cloud database integration,
+Real-time emergency notifications.
 
 Purpose:
 ROADSoS is built as a hackathon/project prototype to demonstrate how technology can improve emergency response time and road safety by integrating multiple servics into single platform.
