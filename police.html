@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Nearby Police Stations</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            background:#f4f6f9;
+            font-family:Arial;
+            padding:30px;
+        }
+
+        .box{
+            background:white;
+            padding:30px;
+            border-radius:20px;
+            box-shadow:0px 4px 12px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        iframe{
+            border-radius:20px;
+            margin-top:20px;
+        }
+
+        .emergency-box{
+            background:#eef4ff;
+            border:2px solid #c7dcff;
+            padding:20px;
+            border-radius:20px;
+            margin-top:25px;
+        }
+
+        .call-btn{
+            margin-top:10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>👮 Nearby Police Stations</h1>
+
+    <p>
+        Find nearby police stations in real-time
+    </p>
+
+    <!-- EMERGENCY CONTACTS -->
+
+    <div class="emergency-box">
+
+        <h3>🚨 Emergency Police Numbers</h3>
+
+        <p>
+            <strong>100</strong> — Police Emergency Helpline
+        </p>
+
+        <a href="tel:100">
+
+            <button class="btn btn-primary call-btn">
+                📞 Call 100
+            </button>
+
+        </a>
+
+        <hr>
+
+        <p>
+            <strong>112</strong> — National Emergency Response Support System
+        </p>
+
+        <a href="tel:112">
+
+            <button class="btn btn-primary call-btn">
+                📞 Call 112
+            </button>
+
+        </a>
+
+    </div>
+
+    <!-- GOOGLE MAPS BUTTON -->
+
+    <a href="https://www.google.com/maps/search/police+station+near+me"
+       target="_blank">
+
+        <button class="btn btn-primary btn-lg mt-4 mb-4">
+            🗺️ Open Google Maps
+        </button>
+
+    </a>
+
+    <!-- MAP -->
+
+    <iframe
+        src="https://www.google.com/maps?q=police+station+near+me&output=embed"
+        width="100%"
+        height="500">
+    </iframe>
+
+</div>
+
+</body>
+</html>

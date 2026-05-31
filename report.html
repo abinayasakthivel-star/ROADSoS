@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Report Accident</title>
+
+    <style>
+
+        body{
+            background:#f2f2f2;
+            font-family:Arial;
+            padding:20px;
+        }
+
+        .box{
+            background:white;
+            max-width:500px;
+            margin:auto;
+            padding:30px;
+            border-radius:20px;
+            box-shadow:0px 0px 10px lightgray;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:12px;
+            margin-top:10px;
+            margin-bottom:20px;
+            border-radius:10px;
+            border:1px solid gray;
+        }
+
+        button{
+            background:red;
+            color:white;
+            border:none;
+            padding:12px 20px;
+            border-radius:10px;
+            cursor:pointer;
+            width:100%;
+            font-size:18px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>🚗 Report Accident</h1>
+
+   <form method="POST">
+
+    <label>Location</label>
+    <input type="text"
+           name="location"
+           placeholder="Enter accident location">
+
+    <label>Vehicle Number</label>
+    <input type="text"
+           name="vehicle"
+           placeholder="Enter vehicle number">
+
+    <label>Description</label>
+    <textarea rows="5"
+              name="description"
+              placeholder="Describe the accident"></textarea>
+
+    <button type="submit">
+        Submit Report
+    </button>
+
+</form>
+
+</div>
+
+</body>
+</html>
